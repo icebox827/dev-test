@@ -1,6 +1,6 @@
-var i = 0; // Start point
-var images = [];
-var time = 3000;
+let i = 0; // Start point
+let images = [];
+let time = 3000;
 
 // Image List
 images[0] = 'img/oz-mule--212103Z 2F-worn-1-0-0-850-850_b 1.png';
@@ -9,7 +9,7 @@ images[2] = 'img/avalon-iii-throw-blanket--102665M 59-worn-2-0-0-850-850_b 1.png
 
 
 // Change Image
-function changeImg(){
+function slider(){
   document.slide.src = images[i];
 
   if(i < images.length - 1){
@@ -18,7 +18,7 @@ function changeImg(){
     i = 0;
   }
 
-  setTimeout("changeImg()", time);
+  setTimeout("slider()", time);
 }
 
-window.onload = changeImg;
+window.onload = slider;
