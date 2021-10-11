@@ -16,6 +16,17 @@
   height: 100vh;
 }
 
+.thumb_list {
+  display: flex;
+  justify-content: center;
+}
+
+.thumb_list img {
+  width: 10px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
 .content {
   display: flex;
   width: 100%;
