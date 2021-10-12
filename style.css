@@ -105,7 +105,19 @@ body {
   }
 }
 
-@media all and (min-width: 961px) {
+@media all and (min-width: 961px) and (max-width: 1200px) {
+  .content-mobile {
+    display: none;
+  }
+
+  .container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+@media all and (min-width: 1201px) {
   .content-mobile {
     display: none;
   }
