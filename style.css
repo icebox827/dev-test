@@ -70,3 +70,21 @@
   font-weight: 300;
   font-family: Roboto;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .content {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+  .content-mobile {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-mobile {
+    display: none;
+  }
+}
