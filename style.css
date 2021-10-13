@@ -28,8 +28,45 @@ body {
 .content {
   width: 35%;
   height: auto;
-  /* justify-content: center;
-  flex-direction: column; */
+}
+
+.content-mobile {
+  width: 100%;
+  height: auto;
+}
+
+.content-mobile h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  padding-top: 10px;
+  color: #000000;
+}
+
+.content-mobile h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration-line: underline;
+  padding-top: 10px;
+  color: #000000;
+}
+
+.content-mobile h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  padding-top: 10px;
+  color: #444444;
 }
 
 .logo {
@@ -39,14 +76,17 @@ body {
 
 .logo img {
   width: 20%;
+  padding-top: 10px;
 }
 
 .content h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
+  font-size: 18px;
   line-height: 21px;
   text-align: center;
+  padding-top: 10px;
   color: #000000;
 }
 
@@ -54,9 +94,11 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
   line-height: 19px;
   text-align: center;
   text-decoration-line: underline;
+  padding-top: 10px;
   color: #000000;
 }
 
@@ -64,8 +106,10 @@ body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
+  font-size: 12px;
   line-height: 14px;
   text-align: center;
+  padding-top: 10px;
   color: #444444;
 }
 
