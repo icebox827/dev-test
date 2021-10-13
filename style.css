@@ -29,7 +29,9 @@ body {
 }
 
 .thumbnail {
-  float: left;
+  position: absolute;
+  top: 20rem;
+  left: 0;
 }
 
 .mySlides img {
