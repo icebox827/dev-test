@@ -11,6 +11,8 @@ images[5] = 'img/as-de-coeur-earrings-small-model--081864CDJ7-front-1-300-0-850-
 
 function slider() {
   document.slide.src = images[i];
+  document.slide1.src = images[i+1];
+  document.slide2.src = images[i+2]
 
   if (i < images.length - 1) {
     i += 1;
