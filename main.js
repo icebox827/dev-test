@@ -28,7 +28,7 @@ function showSlides(n) {
   }
 
   function responsive() {
-  if (mobile.matches && tablet.matches) {
+  if (mobile.matches || tablet.matches) {
       slides[slideIndex-1].style.display = "inline-block";  
       dots[slideIndex-1].className += " active";
     } else if (desktop.matches) {
