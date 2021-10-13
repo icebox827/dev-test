@@ -25,6 +25,10 @@ body {
   margin-right: 10px;
 }
 
+.container img {
+  margin-right: 10px;
+}
+
 .content {
   width: 35%;
   height: auto;
