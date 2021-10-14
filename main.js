@@ -42,8 +42,7 @@ function showSlides(n) {
       slides[slideIndex+1].style.display = "inline-block";
     }
   };
- 
-  responsive();
-}
 
-window.onload = showSlides;
+  responsive();
+
+}
