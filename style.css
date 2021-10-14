@@ -201,7 +201,7 @@ body {
   .thumbnail {
     position: absolute;
     top: 36vh;
-    left: 18vh;
+    left: 20vh;
   }
 }
 
@@ -215,6 +215,12 @@ body {
     /* margin: 0 auto; */
     height: auto;
     object-fit: contain;
+  }
+
+  .thumbnail {
+    position: absolute;
+    top: 36vh;
+    left: 6vh;
   }
 }
 
