@@ -11,7 +11,7 @@ body {
 .container-slider {
   display: flex;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   justify-content: center;
   background: #e5e5e5;
 }
@@ -29,9 +29,11 @@ body {
 }
 
 .thumbnail {
-  position: absolute;
-  top: 36vh;
-  left: 8vh;
+  /* position: absolute; */
+  text-align: center;
+  background: #e5e5e5;
+  /* top: 36vh;
+  left: 8vh; */
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -180,9 +182,11 @@ body {
   }
 
   .thumbnail {
-    position: absolute;
+    /* position: absolute;
     top: 81vh;
-    left: 3rem;
+    left: 3rem; */
+    text-align: center;
+    background: #e5e5e5;
   }
 }
 
@@ -199,9 +203,11 @@ body {
   }
 
   .thumbnail {
-    position: absolute;
+    /* position: absolute;
     top: 36vh;
-    left: 20vh;
+    left: 20vh; */
+    text-align: center;
+    background: #e5e5e5;
   }
 }
 
@@ -218,9 +224,11 @@ body {
   }
 
   .thumbnail {
-    position: absolute;
+    /* position: absolute;
     top: 36vh;
-    left: 6vh;
+    left: 6vh; */
+    text-align: center;
+    background: #e5e5e5;
   }
 }
 
