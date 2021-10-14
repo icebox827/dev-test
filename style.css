@@ -175,10 +175,6 @@ body {
     padding-top: 20px;
   }
 
-  .content .text {
-    padding: 0 10px;
-  }
-
   .container {
     width: 100%;
     margin-top: 20px;
@@ -189,14 +185,6 @@ body {
     padding: 0 10px;
     height: auto;
     object-fit: contain;
-  }
-
-  .slide1 {
-    display: none;
-  }
-
-  .slide2 {
-    display: none;
   }
 }
 
@@ -210,14 +198,6 @@ body {
     height: auto;
     object-fit: contain;
   }
-
-  .slide1 {
-    display: none;
-  }
-
-  .slide2 {
-    display: none;
-  }
 }
 
 @media all and (min-width: 960px) and (max-width: 1199px) {
@@ -229,10 +209,6 @@ body {
     max-width: 100%;
     height: auto;
     object-fit: contain;
-  }
-
-  .slide2 {
-    display: none;
   }
 }
 
